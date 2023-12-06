@@ -18,7 +18,7 @@ Clone the Repository: Clone this repository to your local machine or download th
 
 Run the Script: Navigate to the script's directory in your terminal and execute it with Python:
 
-python UniProtPeptideToPDBDownloader.py
+python UniProtPeptideToFASTAandPDBDownloader.py
 
 Check the Output: After running, the script will create an output directory where it stores the downloaded FASTA and PDB files, organized into subdirectories named after each UniProt ID.
 
