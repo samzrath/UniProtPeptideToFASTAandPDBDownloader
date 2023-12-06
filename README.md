@@ -7,18 +7,19 @@ Automated Querying: Searches UniProt for peptides based on specified criteria (l
 UniProt to PDB Mapping: For each UniProt ID, the script finds associated PDB IDs.
 Organized Downloads: Downloads FASTA sequences from UniProt and PDB files, saving them in separate directories named after each UniProt ID for easy organization and reference.
 Batch Processing: Capable of handling multiple UniProt IDs and corresponding PDB files efficiently.
+
 Prerequisites
 Before running the script, ensure you have Python installed on your system along with the requests library. If you do not have the requests library, you can install it using the following command:
 
-
 pip install requests
+
 Usage
 Clone the Repository: Clone this repository to your local machine or download the script file.
 
 Run the Script: Navigate to the script's directory in your terminal and execute it with Python:
 
-Copy code
 python UniProtPeptideToPDBDownloader.py
+
 Check the Output: After running, the script will create an output directory where it stores the downloaded FASTA and PDB files, organized into subdirectories named after each UniProt ID.
 
 Customization
